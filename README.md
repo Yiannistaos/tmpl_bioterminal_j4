@@ -6,6 +6,10 @@ The video is produced by Brad Traversy and you can see it on Youtube (https://ww
 
 [Joomla! Demo](https://joomla.dokim.es)
 
+[Download for Joomla! 4.x](https://github.com/Yiannistaos/releases/latest/download/tmpl_bioterminal_j4.zip)
+
+[Download for Joomla! 3.x](https://github.com/Yiannistaos/releases/latest/download/tmpl_bioterminal_j3.zip)
+
 ### Screenshot from parameters
 
 In the parameters you can add your brand name, the navigation menu links with their content, and your social media links.

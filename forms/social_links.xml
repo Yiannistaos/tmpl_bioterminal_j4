@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+        <field name="title" type="text" label="Title" size="30" hint="e.g. Facebook" />
+        <field name="url" type="url" default="" label="Enter a URL" description="" size="60" hint="e.g. https://www.facebook.com/Yiannistaos " />
+    </fieldset>
+</form>

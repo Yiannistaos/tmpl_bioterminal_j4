@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "bioterminal",
+  "version": "4.0.0",
+  "description": "BioTerminal is a Joomla! template",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "template.style",
+      "type": "style",
+      "uri": "style.css"
+    }
+
+  ]
+}

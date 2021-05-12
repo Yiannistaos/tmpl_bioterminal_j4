@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+	<name>bioterminal</name>
+	<version>1.0.0</version>
+	<creationDate>May 2021</creationDate>
+	<author>Yiannis Christodoulou (Web357)</author>
+	<authorEmail>support@web357.com</authorEmail>
+	<copyright>(C) 2021 Web357.com All rights reserved.</copyright>
+	<description>TPL_BIOTERMINAL_XML_DESCRIPTION</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>joomla.asset.json</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>forms</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+
+			<fieldset name="advanced">
+
+				<field name="brand_name" type="text" default="Yiannis" label="Your nickname" description="Enter your (brand) name, or just a nickname." filter="raw" />
+
+				<field name="menu_items_group"
+					label="Menu items"
+					description=""
+					type="subform"
+					min="1"
+					max="10"
+					required="false"            
+					formsource="templates/bioterminal/forms/menu_items.xml"
+					multiple="true"
+					buttons="add,remove,move" 
+					layout="joomla.form.field.subform.repeatable-table"
+					groupByFieldset="false"
+					default='{
+					"menu_items_group0": {
+						"title": "about",
+						"heading": "About Me",
+						"text": "&lt;p&gt;Hey, I am Yiannis Christodoulou.&lt;/p&gt;&lt;p&gt;I was born in beautiful Rhodes island of Greece. Today, I live in Cyprus, since January 2011.&lt;/p&gt;&lt;p&gt;I am a freelance Full-stack PHP Web Developer and the guy behind Web357. I love building websites and applications with Joomla! and WordPress. Also I love travels, food, video games and football.&lt;/p&gt;"
+					},
+					"menu_items_group1": {
+						"title": "contact",
+						"heading": "Contact Me",
+						"text": "&lt;p&gt;You can contact me at the email and phone number below.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone: (00357) 12345678&lt;/li&gt;&lt;li&gt;Email: yiannis@web357.com&lt;/li&gt;&lt;/ul&gt;"
+					}
+					}'
+				/>
+
+				<field name="social_links_group"
+					label="Enter your Social Links"
+					description=""
+					type="subform"
+					min="0"
+					max="20"
+					required="false"            
+					formsource="templates/bioterminal/forms/social_links.xml"
+					multiple="true"
+					buttons="add,remove,move" 
+					layout="joomla.form.field.subform.repeatable-table"
+					groupByFieldset="false"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

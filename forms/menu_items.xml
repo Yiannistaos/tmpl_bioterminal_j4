@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset>
+        <field name="title" type="text" label="Title" size="30" hint="e.g. about" />
+        <field name="heading" type="text" label="Heading" size="30" hint="e.g. About Me" />
+        <field name="text" type="editor" label="Text" default="" description="" width="300" filter="safehtml" hint="Text goes here..." />
+    </fieldset>
+</form>

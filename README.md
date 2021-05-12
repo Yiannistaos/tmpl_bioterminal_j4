@@ -6,9 +6,9 @@ The video is produced by Brad Traversy and you can see it on Youtube (https://ww
 
 [Joomla! Demo](https://joomla.dokim.es)
 
-[Download for Joomla! 4.x](https://github.com/Yiannistaos/releases/latest/download/tmpl_bioterminal_j4.zip)
+[Download for Joomla! 3.x](https://github.com/Yiannistaos/tmpl_bioterminal_j3/archive/main.zip)
 
-[Download for Joomla! 3.x](https://github.com/Yiannistaos/releases/latest/download/tmpl_bioterminal_j3.zip)
+[Download for Joomla! 4.x](https://github.com/Yiannistaos/tmpl_bioterminal_j4/archive/main.zip)
 
 ### Screenshot from parameters
 
